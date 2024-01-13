@@ -1,21 +1,16 @@
 # IoT Engineering
-## Project MY_TEAM_PROJECT_TITLE
+## Spotify Remote Control
 
-> *Note: Do not work on this repository right away.*<br/>
-> *[Create your copy or join a team by clicking this GitHub Classroom link](https://classroom.github.com/a/TODO).*
 
 ## Introduction
-This project is part of the [IoT Engineering](../../../fhnw-iot) course.
+This project is part of the [IoT Engineering](https://github.com/tamberg/fhnw-iot)) course.
 
-* 2-person teams, building an IoT system.
-* 32 hours of work per person, 1 prototype.
-* 10' presentation of the project at Demo Day.
-* Slides, source code and setup steps on GitHub.
-* Both team members are able to explain the project.
+It allows remote control of a Spotify session. With buttons to skip, go to previous, pause/play songs. Also displays song title and artist on Grove display.
 
 ### Team members
-* @MY_TEAM_PROJECT_GITHUB_USER_1, REAL_NAME_1
-* @MY_TEAM_PROJECT_GITHUB_USER_2, REAL_NAME_2
+* @ProgrammiererEFZ, Luca Plozner
+* @xenoisenegger, Xeno Isenegger
+* , Stefan Simic
 
 ## Deliverables
 The following deliverables are mandatory.
@@ -29,11 +24,9 @@ Source code, Arduino C, JS or Python, committed to (this) project repo.
 
 [Python/MY_TEAM_PROJECT.py](Nodejs/MY_TEAM_PROJECT_FILE.py)
 
-... (adapt as required)
-
-1) Embedded code / microcontroller firmware.
-2) Glue Code used on the gateway or "in the cloud".
-3) App or Web UI code, or IoT platform setup steps.
+### Setup
+1. Install the *U8g2* library.
+2. Set 
 
 ### Presentation
 4-slide presentation, PDF format, committed to (this) project repo.
@@ -48,7 +41,7 @@ Source code, Arduino C, JS or Python, committed to (this) project repo.
 ### Live demo
 Working end-to-end prototype, "device to cloud", part of your 10' presentation.
 
-[https://MY_TEAM_PROJECT_DEMO_HOST:PORT/](https://MY_TEAM_PROJECT_DEMO_HOST:PORT/)
+[http://172.20.10.14T/](http:/172.20.10.14/)
 
 1) Sensor input on a IoT device triggers an event.
 2) The event or measurement shows up online, in an app or Web client.

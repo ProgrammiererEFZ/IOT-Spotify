@@ -13,13 +13,8 @@ The software allows remote control of a Spotify session. With buttons to skip, g
 The following deliverables are mandatory.
 
 ### Source code
-Source code, Arduino C, JS or Python, committed to (this) project repo.
-
 [Arduino/MY_TEAM_PROJECT/MY_TEAM_PROJECT.ino](Arduino/MY_TEAM_PROJECT_FILE.ino)
 
-[Nodejs/MY_TEAM_PROJECT.js](Nodejs/MY_TEAM_PROJECT_FILE.js)
-
-[Python/MY_TEAM_PROJECT.py](Nodejs/MY_TEAM_PROJECT_FILE.py)
 
 ### Setup
 1. Install the **U8g2** and **ArduinoJson** library under **Manage Libraries**.

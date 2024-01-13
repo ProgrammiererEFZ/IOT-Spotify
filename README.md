@@ -1,11 +1,8 @@
-# IoT Engineering
-## Spotify Remote Control
-
+# Spotify Remote Control
+This project is part of the [IoT Engineering](https://github.com/tamberg/fhnw-iot) course.
 
 ## Introduction
-This project is part of the [IoT Engineering](https://github.com/tamberg/fhnw-iot)) course.
-
-It allows remote control of a Spotify session. With buttons to skip, go to previous, pause/play songs. Also displays song title and artist on Grove display.
+The software allows remote control of a Spotify session. With buttons to skip, go to previous, pause/play songs. Also displays song title and artist on Grove display.
 
 ### Team members
 * @ProgrammiererEFZ, Luca Plozner
@@ -46,11 +43,9 @@ Source code, Arduino C, JS or Python, committed to (this) project repo.
 ### Live demo
 Working end-to-end prototype, "device to cloud", part of your 10' presentation.
 
-[http://172.20.10.14T/](http:/172.20.10.14/)
+[http://172.20.10.14/](http:/172.20.10.14/)
 
 1) Sensor input on a IoT device triggers an event.
 2) The event or measurement shows up online, in an app or Web client.
 3) The event triggers actuator output on the same or on a separate IoT device.
 
-## Submission deadline
-Commit and push to (this) project repo before Demo Day, _17.01.2022, 00:00_.

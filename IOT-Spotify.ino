@@ -469,12 +469,11 @@ private:
 bool buttonStates[] = {1, 1, 1, 1};
 int debounceDelay = 50;
 unsigned long debounceTimes[] = {0, 0, 0, 0};
-int buttonPins[] = {4, 5, 6, 7}; //TODO: Anpassen
 
 ESP8266WebServer server(80);
 SpotifyConnection spotifyConnection;
 
-U8G2_SSD1306_128X64_ALT0_F_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE); // SSD1306 and SSD1308Z are compatible TODO: Pins? https://wiki.seeedstudio.com/Grove-OLED_Display_0.96inch/
+U8G2_SSD1306_128X64_ALT0_F_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);
 
 /**
  * @brief This method handles the root ("/") path of the web server.
@@ -561,6 +560,7 @@ static int loopCounter; // Add a counter for loop iterations
  * - Starts the serial communication with a baud rate of 115200.
  * - Connects to the WiFi network using the specified SSID and password.
  * - Starts the HTTP server and sets up the server routes.
+ * - Initializes the display.
  * - Sets up the buttons for the Spotify player.
  */
 void setup() {

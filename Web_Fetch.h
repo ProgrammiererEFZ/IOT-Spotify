@@ -1,4 +1,4 @@
-// Fetch a file from the URL given and save it in SPIFFS
+
 // Return 1 if a web fetch was needed or 0 if file already exists
 bool getFile(String url, String filename) {
 

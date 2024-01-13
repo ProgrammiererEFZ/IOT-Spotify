@@ -1,0 +1,47 @@
+# Arduino IDE
+*.hex
+*.elf
+*.bin
+*.db
+*.elf
+*.eep
+*.ipr
+*.iob
+*.lst
+*.o
+*.s
+*.su
+*.ctags
+*.d
+*.class
+*.pyc
+*.pyo
+*.pyd
+*.ipch/
+*.ncb/
+*.swp
+*.suo
+*.idb
+*.aps
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.docstates
+
+# Arduino project files
+/.vscode/
+*.code-workspace
+
+# Arduino library cache
+**/libraries/
+
+# Arduino build files
+/build/
+
+# macOS system files
+.DS_Store
+
+# Temporary files
+.tmp/
+

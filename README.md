@@ -25,8 +25,13 @@ Source code, Arduino C, JS or Python, committed to (this) project repo.
 [Python/MY_TEAM_PROJECT.py](Nodejs/MY_TEAM_PROJECT_FILE.py)
 
 ### Setup
-1. Install the *U8g2* library.
-2. Set 
+1. Install the **U8g2** and **ArduinoJson** library under **Manage Libraries**.
+2. Set WiFi credentials in TODO.ino
+3. Retrieve local IP by loading TODO.ino onto ESP8266 and running it.
+4. [Create Spotify App](https://developer.spotify.com/dashboard/create), set callback to `http://local_IP/callback/' on API, give all permissions.
+5. Copy credentials and callback address into TODO.ino
+6. Load script onto ESP8266, go to IP and log into Spotify.
+7. Start a song.
 
 ### Presentation
 4-slide presentation, PDF format, committed to (this) project repo.

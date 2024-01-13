@@ -25,12 +25,12 @@
 #endif
 
 // WiFi credentials
-#define WIFI_SSID "HOME"
-#define PASSWORD "July.0001"
+#define WIFI_SSID ""
+#define PASSWORD ""
 
 // Spotify API credentials
-#define CLIENT_ID "d877bcaa7ceb42ae9346df32e7707114"
-#define CLIENT_SECRET "c756a1e1cd844be58fa044615803abbc"
+#define CLIENT_ID ""
+#define CLIENT_SECRET ""
 #define REDIRECT_URI "http://192.168.1.42/callback"
 
 // Button Pins
